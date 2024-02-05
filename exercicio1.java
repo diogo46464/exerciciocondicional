@@ -12,7 +12,7 @@ public class Main {
 		
 		System.out.println("Bom dia");
 		
-		if(x>0) {
+		if(x<0) {
 		   System.out.println("Boa Tarde");
 		}
 		
