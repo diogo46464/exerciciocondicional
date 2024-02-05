@@ -7,18 +7,20 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+	
+		int hora;
+
+		System.out.println("Quantas horas");
+        hora = sc.nextInt();
+
+        if (hora < 12){
+		    System.out.println("Bom dia");
+        }
+		else {
+		    System.out.println("Boa Tarde");
+		}	
+	sc.close();	
 		
-		int x = 5;
-		
-		System.out.println("Bom dia");
-		
-		if(x<0) {
-		   System.out.println("Boa Tarde");
-		}
-		
-		System.out.println("Boa noite");
-		
-		sc.close();
 		
 
 	}
